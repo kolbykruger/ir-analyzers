@@ -2342,7 +2342,7 @@ table td {
   opacity: 0.8;
 }
 .impression .text .buttons {
-  margin-top: 3em;
+  margin-top: 1.5em;
 }
 .impression .images {
   position: relative;
@@ -2384,6 +2384,21 @@ table td {
 .projects-widget .projects-item a {
   text-decoration: none;
   color: inherit;
+  transition: 250ms ease;
+}
+.projects-widget .projects-item a:hover, .projects-widget .projects-item a:focus {
+  display: block;
+  background: #fff;
+  box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+.projects-widget .projects-item a:hover img, .projects-widget .projects-item a:focus img {
+  transform: scale(1.08);
+}
+.projects-widget .projects-item .image {
+  overflow: hidden;
+}
+.projects-widget .projects-item .image img {
+  transition: 250ms ease;
 }
 .projects-widget .projects-item .details {
   padding: 1em 0;
