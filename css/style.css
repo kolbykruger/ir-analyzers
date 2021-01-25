@@ -907,7 +907,7 @@ hr::before {
   width: 1.75em;
 }
 .nav ul ul a:hover, .nav ul ul a:focus {
-  background: #f8f8f8;
+  background: #f6f9fc;
 }
 .nav > ul {
   display: flex;
