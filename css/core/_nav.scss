@@ -8,7 +8,7 @@
         padding: 0;
 
         ul {
-            border-radius: 0.25em;
+            border-radius: 0.375em;
             padding: 0;
             left: 0;
             opacity: 0;
@@ -23,9 +23,15 @@
             overflow: hidden;
 
             a {
-                @include fs(13px);
-                padding: 10px;
+                @include fs(14px);
+                padding: 1em;
                 margin: 0;
+
+                i {
+                    @include fs(16px);
+                    color: $color-1;
+                    width: 1.75em;
+                }
 
                 &:hover,
                 &:focus {
@@ -56,7 +62,6 @@
         display: block;
 
         &.open {
-
             > a {
                 color: $color-1;
             }
