@@ -2342,3 +2342,19 @@ table td {
   box-shadow: rgba(27, 31, 35, 0.07) 0px 10px 50px 0px;
   border-radius: 0.125em;
 }
+
+.projects-widget .group {
+  margin: 0 -1.5em;
+}
+.projects-widget .projects-item {
+  width: calc(33.333% - 3em);
+  margin: 1.5em;
+}
+.projects-widget .projects-item a {
+  text-decoration: none;
+  color: inherit;
+}
+.projects-widget .projects-item .details {
+  padding: 1em 0;
+  text-align: center;
+}

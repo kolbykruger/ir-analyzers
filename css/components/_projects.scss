@@ -1,18 +1,25 @@
 .projects {
-
     &-widget {
-
         .container {
-
         }
 
         .group {
-
+            margin: 0 -1.5em;
         }
 
         .projects-item {
+            width: calc(33.333% - 3em);
+            margin: 1.5em;
 
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+
+            .details {
+                padding: 1em 0;
+                text-align: center;
+            }
         }
-
     }
 }
