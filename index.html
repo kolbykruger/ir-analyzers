@@ -35,6 +35,86 @@
             </div>
         </div>
 
+        <style>
+            .mobile-message {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                background: #f8f8f8;
+                display: none;
+                margin: 0;
+            }
+            .mobile-message h2 {
+                margin-bottom: 0.5em;
+            }
+            .mobile-message .rocket {
+                max-width: 100px;
+                margin: 1em auto;
+            }
+
+            @media (max-width: 968px) {
+                .mobile-message {
+                    display: flex;
+                    z-index: 999;
+                }
+            }
+        </style>
+
+        <section class="mobile-message">
+            <div class="container">
+                <div class="rocket">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        version="1.1"
+                        id="ewd_logo_color"
+                        shape-rendering="optimizeQuality"
+                        x="0px"
+                        y="0px"
+                        viewBox="0 0 147.15381 147.15381"
+                        xml:space="preserve"
+                    >
+                        <g id="Rocket" class="logo_rocket_whole">
+                            <circle
+                                class="logo_rocket_circle"
+                                style="fill: #ef4438"
+                                cx="73.57666"
+                                cy="73.57715"
+                                r="73.57666"
+                            ></circle>
+                            <g class="logo_rocket">
+                                <path
+                                    class="logo_rocket_window"
+                                    style="fill: none"
+                                    d="M73.57617,41.50537c-0.00098,0-0.00195,0-0.00195,0c-4.41992,0-8.00293,3.58301-8.00293,8.00293 c0,4.41943,3.58301,8.00195,8.00293,8.00195c0,0,0.00098,0,0.00195,0c4.41895-0.00146,8-3.58301,8-8.00195 C81.57617,45.08984,77.99512,41.50684,73.57617,41.50537z"
+                                ></path>
+                                <path
+                                    class="logo_rocket_ship"
+                                    style="fill: #ffffff"
+                                    d="M90.39453,77.17725c0,0,3.25586-16.41162-1.35645-34.85742 C86.62891,32.68164,78.32324,17.0918,73.57617,17.0918l0,0c-4.74707,0-13.05273,15.58984-15.46289,25.22803 c-4.61133,18.4458-1.35547,34.85742-1.35547,34.85742c-14.5127,9.90186-12.28125,16.86084-5.1543,35.40039 c4.2041,10.9375,7.10352,4.47461,8.29395,1.62695c1.72461-4.12109,3.07031-7.2793,5.24512-9.33008c0,0.8457,0,1.64453,0,2.2832 c0,2.71289,1.35645,3.76758,2.71289,3.76758c1.35547,0,5.7207,0,5.7207,0s0-1.16992,0-3.85352c0,2.68359,0,3.85352,0,3.85352 s4.36621,0,5.72168,0c1.35645,0,2.71289-1.05469,2.71289-3.76758c0-0.63672,0-1.43555,0-2.28125 c2.1748,2.05078,3.51953,5.20703,5.24414,9.32813c1.19043,2.84766,4.08984,9.31055,8.29395-1.62695 C102.67676,94.03809,104.9082,87.0791,90.39453,77.17725z M73.57617,57.51025c-0.00098,0-0.00195,0-0.00195,0 c-4.41992,0-8.00293-3.58252-8.00293-8.00195c0-4.41992,3.58301-8.00293,8.00293-8.00293c0,0,0.00098,0,0.00195,0 c4.41895,0.00146,8,3.58447,8,8.00293C81.57617,53.92725,77.99512,57.50879,73.57617,57.51025z"
+                                ></path>
+                                <path
+                                    class="logo_rocket_flame"
+                                    style="fill: #ffffff"
+                                    d="M73.57617,111.74365c-12.02637,0-3.83203,18.31836,0,18.31836 C77.34082,130.06201,85.70703,111.74365,73.57617,111.74365z"
+                                ></path>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <h2>Uh oh!</h2>
+                <p>It looks like you're viewing this on a mobile device.</p>
+                <p>Our designs are not mobile responsive yet, that will come later.</p>
+                <p>Please view this page on your computer.</p>
+            </div>
+        </section>
+
         <header class="header" role="banner">
             <div class="container">
                 <div class="group">
