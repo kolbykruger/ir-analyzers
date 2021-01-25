@@ -39,11 +39,15 @@ $button-background: $color-1;
 .button {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     margin: 0;
-    padding: 0.75em 1em;
+    padding: 1em;
+    min-width: 160px;
+    font-size: 1.125rem;
     background: $button-background;
     color: $button-color;
-    border-radius: 0.25em;
+    border-radius: 0.375em;
+    font-weight: 500;
     line-height: 1;
     transition: 150ms ease;
     text-decoration: none;
@@ -97,7 +101,7 @@ $button-background: $color-1;
             border-color: $color-2
         }
     }
-    
+
     &[disabled] {
         background: $color-grey-1;
         color: $color-0;

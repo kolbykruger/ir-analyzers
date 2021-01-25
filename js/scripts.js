@@ -59,6 +59,17 @@ $('.slideshow .container').flickity({
     autoPlay: 5000,
 });
 
+$('.impression .images').flickity({
+    cellSelector: '.images-item',
+    wrapAround: true,
+    adaptiveHeight: false,
+    cellAlign: 'center',
+    prevNextButtons: false,
+    pageDots: true,
+    imagesLoaded: true,
+    autoPlay: 5000,
+});
+
 //Universal Tables
 $('table').wrap("<div class='universal-table'></div>");
 

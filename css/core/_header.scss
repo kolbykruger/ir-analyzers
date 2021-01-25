@@ -4,11 +4,12 @@
         position: relative;
         max-width: $container-width;
         width: 100%;
+        padding: 2em 1em;
     }
 
     .group {
         justify-content: space-between;
-        align-items: flex-end;
+        align-items: center;
     }
 
     .logo {
