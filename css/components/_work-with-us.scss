@@ -1,0 +1,52 @@
+.work-with-us {
+    position: relative;
+    padding-top: 10vh;
+
+    .container {
+        padding: 0;
+    }
+
+    .group {
+        align-items: center;
+    }
+
+    .images {
+        position: relative;
+        padding: 1em;
+        max-width: 800px;
+        margin: 0 auto;
+
+        .flickity-viewport {
+            width: 100%;
+            margin: 1em 0;
+        }
+
+        .flickity-page-dots {
+            bottom: 0;
+            max-width: calc(100% - 1em);
+
+            .dot:only-child {
+                display: none;
+            }
+        }
+
+        .images-item {
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            //box-shadow: rgba(27, 31, 35, 0.07) 0px 10px 50px 0px;
+            border-radius: 0.125em;
+        }
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .buttons {
+    }
+}
