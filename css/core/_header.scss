@@ -5,12 +5,12 @@
     width: 100%;
     z-index: 99;
     transition: 320ms ease;
-    height: 7.5em;
+    height: 8.5em;
 
     &.header-unsticky,
     &.header-sticky {
         background: $color-2;
-        height: 5.75em;
+        height: 6.5em;
         box-shadow: $box-shadow-3;
 
         .container {
@@ -50,7 +50,7 @@
     }
 
     &.header-sticky {
-        height: 7.5em;
+        height: 8.5em;
 
         .container {
             padding: 2em 1em;
@@ -71,8 +71,13 @@
     }
 
     .logo {
+        &-wrapper {
+            flex: 1;
+        }
+
         width: 100%;
-        max-width: 240px;
+        //max-width: 240px;
+        max-width: 288px;
 
         a {
             display: block;
@@ -81,6 +86,12 @@
         img {
             width: 100%;
         }
+    }
+
+    .action {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
     }
 
     .mobile-icons {

@@ -1,4 +1,7 @@
 .nav {
+    flex: 3;
+    display: flex;
+    justify-content: center;
     text-align: center;
     user-select: none;
     z-index: 10;
